@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>eu.verdelhan</groupId>
     <artifactId>ta4j-parent</artifactId>
-    <version>0.8</version>
+    <version>0.8-paramNames</version>
     <packaging>pom</packaging>
 
     <name>Ta4j Parent</name>
@@ -133,8 +133,9 @@
                     <source>1.6</source>
                     <target>1.6</target>
                     <showDeprecation>true</showDeprecation>
-                    <showWarnings>true</showWarnings>
-                </configuration>
+		    <showWarnings>true</showWarnings>
+		    <compilerArgument>-parameters</compilerArgument>
+		</configuration>
             </plugin>
 
             <!-- License headers -->
